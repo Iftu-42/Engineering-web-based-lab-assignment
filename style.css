@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.form-card {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    width: 350px;
+    text-align: left;
+}
+
+.registration-card {
+    width: 800px; /* Wider for the registration layout */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    flex: 1;
+    padding: 0 10px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"], 
+input[type="password"], 
+select, 
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensures padding doesn't affect width */
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.options label {
+    font-weight: normal;
+    display: block;
+    margin-bottom: 2px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+}
+
+.btn-primary { background-color: #007bff; }
+.btn-danger { background-color: #dc3545; }
+
+.toggle-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.toggle-link:hover { text-decoration: underline; }
